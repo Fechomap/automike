@@ -1,5 +1,3 @@
-// ui/assets/js/license-ui.js (actualización)
-
 document.addEventListener('DOMContentLoaded', () => {
     console.log('Inicializando interfaz de licencia...');
     const tokenInput = document.getElementById('tokenInput');
@@ -151,9 +149,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 if (result.valid) {
                     // Mensaje específico si el token fue redimido
-                    tokenSuccess.textContent = result.redeemed ? 
-                        'Token redimido exitosamente. Redirigiendo...' : 
-                        'Token validado correctamente. Redirigiendo...';
+                    tokenSuccess.textContent = result.redeemed
+                        ? 'Token redimido exitosamente. Redirigiendo...'
+                        : 'Token validado correctamente. Redirigiendo...';
                         
                     updateLicenseStatus(result);
                     

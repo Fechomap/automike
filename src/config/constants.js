@@ -8,7 +8,7 @@ const API_CONFIG = {
   ENDPOINTS: {
     VALIDATE_TOKEN: '/api/validate',
     CHECK_VALIDITY: '/api/check-validity',
-    REDEEM_TOKEN: '/api/redeem' // Nuevo endpoint para redimir tokens
+    REDEEM_TOKEN: '/api/redeem' // Endpoint para redimir tokens
   },
   HEADERS: {
     'Content-Type': 'application/json',
